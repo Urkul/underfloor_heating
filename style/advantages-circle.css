@@ -1,0 +1,48 @@
+.title-round {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.advantages__title-round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.circle__text {
+    letter-spacing: 0;
+    word-spacing: 4px;
+    animation: motion normal infinite 20s linear;
+    transform-origin: 46% 46%;
+}
+
+.circle__container {
+    position: relative;
+}
+
+.circle {
+    /* margin-left: 120px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, -50%);
+}
+
+.circle:hover .circle__text {
+    animation-play-state: paused;
+}
+
+.circle__arrow {
+    stroke: black;
+}
+
+@keyframes motion {
+    to {
+        transform: rotate(360deg);
+    }
+}

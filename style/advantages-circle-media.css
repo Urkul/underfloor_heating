@@ -1,0 +1,48 @@
+@media (max-width: 1240px) {
+    .circle {
+        transform: translate(30%, -50%);
+    }
+
+    .title-round {
+        font-size: 34px;
+    }
+
+    .circle__text {
+        word-spacing: 38px;
+    }  
+}
+
+
+@media (max-width: 920px) {
+    .circle {
+        position: relative;
+        left: 0;
+        transform: translate(0, 0);
+    }
+
+    .advantages__title-round {
+        margin-bottom: 15px;
+        /* justify-content: start; */
+    }
+
+    .circle__arrow {
+        transform-origin: 46% 46%;
+        transform: rotate(90deg);
+    }
+}
+
+
+@media (max-width: 560px) {
+    .circle {
+        width: 160px;
+        height: 160px;
+    }
+
+    .title-round {
+        font-size: 34px;
+    }
+
+    .circle__text {
+        word-spacing: 40px;
+    }
+}
